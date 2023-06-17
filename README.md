@@ -14,6 +14,17 @@ Note that for this tutorial you'd need:
 
 # Run the code
 
+Before running the code, you should have your AWS account Id & the actual secret ready.
+
+You can add them to your Bash Profile or ZSH Profile (on macOS) in the following way:
+
+```bash
+echo "export TF_VAR_aws_account_id=<your aws account id>" >> ~/.bashrc
+echo "export TF_VAR_secret=<your secret>" >> ~/.bashrc
+```
+
+Then you can clone the repo and run the code:
+
 ```bash
 git clone https://github.com/nickminaev/tf-in-transit-encryption-in-aws-lambdas.git
 cd tf-in-transit-encryption-in-aws-lambdas
@@ -21,3 +32,4 @@ sudo chmod 755 build.sh
 ./build.sh
 ```
 
+For additional info, refer my [my blog post.](https://www.nickminaev.com/posts/tf-lambda-env-vars-w-kms-encryption.html)
