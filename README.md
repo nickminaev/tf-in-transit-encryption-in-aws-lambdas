@@ -1,6 +1,6 @@
 # About
 
-The following repo is a complementary repo to [my blog post](https://www.nickminaev.com/posts/tf-lambda-env-vars-w-kms-encryption.html) about enabling in transit encryption in Lambda functions in AWS with the KMS service.
+The following repo is the source code to [my blog post](https://www.nickminaev.com/posts/tf-aws-lambda-enable-in-transit-encryption.html.html) about enabling in transit encryption in Lambda functions in AWS with the KMS service.
 
 Note that for this tutorial you'd need:
 
