@@ -15,8 +15,8 @@ Note that for this tutorial you'd need:
 # Run the code
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/nickminaev/tf-in-transit-encryption-in-aws-lambdas.git
+cd tf-in-transit-encryption-in-aws-lambdas
 sudo chmod 755 build.sh
 ./build.sh
 ```
