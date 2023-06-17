@@ -1,6 +1,6 @@
 # About
 
-The following repo is the source code for [my blog post](https://www.nickminaev.com/posts/tf-aws-lambda-enable-in-transit-encryption.html.html) about enabling in transit encryption in Lambda functions in AWS with the KMS service.
+The following repo is the source code for [my blog post](https://www.nickminaev.com/posts/tf-aws-lambda-enable-in-transit-encryption.html) about enabling in transit encryption in Lambda functions in AWS with the KMS service.
 
 Note that for this tutorial you'd need:
 
@@ -32,4 +32,4 @@ sudo chmod 755 build.sh
 ./build.sh
 ```
 
-For additional info, refer my [my blog post.](https://www.nickminaev.com/posts/tf-lambda-env-vars-w-kms-encryption.html)
+For additional info, refer my [my blog post.](https://www.nickminaev.com/posts/tf-aws-lambda-enable-in-transit-encryption.html)
